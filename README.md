@@ -12,6 +12,7 @@ You can set up the environment using either **conda** or **venv**.
 # Create and activate a conda environment
 conda create -n osm-env python=3.10 -y
 conda activate osm-env
+```
 
 ### Option 2: Using a virtual environment
 ```bash
@@ -19,7 +20,8 @@ conda activate osm-env
 python -m venv .venv
 source .venv/bin/activate    # On Linux / macOS
 .venv\Scripts\activate       # On Windows
-
+```
 ### Finally, install dependencies
+```
 pip install -e.
-
+```
